@@ -1,0 +1,16 @@
+.debug [class*="col-"]{
+  line-height: 200px;
+  text-align: center;
+  background-color: rgb(245, 177, 177);
+  border: 1px solid black;
+}
+
+.col-6 > .container{
+  padding: 10px;
+}
+
+.col-6 .col-2, .col-6 .col-8, .col-6 .col-6{
+  background-color: rgb(211, 129, 129);
+  border: 1px solid white;
+}
+
